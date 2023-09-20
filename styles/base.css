@@ -67,6 +67,7 @@ ul{
 footer{
     width: 500px;
     background-color: rgb(0, 102, 255);
+    color: white;
     font-family: Alata, Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: auto;
