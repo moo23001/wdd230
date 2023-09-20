@@ -16,8 +16,8 @@ h1, h2, h3{
 .headercontainer{
     width: 500px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     background-color: rgb(0, 89, 255);
     padding: 20px 0px 20px 0px;
     color: white;
@@ -25,10 +25,10 @@ h1, h2, h3{
 #headerpic {
     width: 30%;
     height: auto;
-    text-align: center;
+    margin: auto;
 }
 #name {
-    text-align: center;
+    margin: auto;
 }
 .navcontainer {
     font-family: Alata, Arial, Helvetica, sans-serif;
