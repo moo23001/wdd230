@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?&family=Golos+Text&display=swap');
+
+body{
+    font-family: "Golos Text";
+}
+header, footer{
+    background-color: rgb(8, 99, 184);
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    grid-column: 1 / 2;
+}
+
+main{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+@media only screen and (min-width: 37.5em){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section:nth-child(2){
+        display: block;
+    }
+
+    main section:nth-child(3){
+        grid-column: span 2;
+    }
+
+}
+
+
+@media only screen and (min-width: 60em){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
