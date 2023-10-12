@@ -8,6 +8,7 @@
     <meta name="description" content="Pedro Moo course assignment portal for WDD 230 class. The page's purpose is to show work done during the course.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <!-- Activity Week 2-->
     <meta property="og:title" content="Pedro Moo - WDD 230 - Web Frontend Development">
@@ -20,12 +21,16 @@
         <img id="headerpic" src="images/Pedro.jpg" alt="Picture of Pedro Moo">
         <h1 id="name">Pedro Moo</h1>
     </header>
-    <nav class="navcontainer">
-        <a class = "navitem" href="#">Home</a>
-        <a class = "navitem" href="chamber/siteplan.html">Site Plan</a>
-        <a class = "navitem" href="chamber/">Chamber</a>
-        <a class = "navitem" href="https://www.byui.edu/">BYU-Idaho</a>
-        <a class = "navitem" href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng&id=p22#p22" target="_blank">Scripture</a>
+    <nav>
+        <button id="hamButton"></button>
+        <ul class="navigation">
+            <li><a class= "navitem" href="#">Home</a></li>
+            <li><a class= "navitem" href="chamber/siteplan.html">Site Plan</a></li>
+            <li><a class= "navitem" href="chamber/">Chamber</a></li>
+            <li><a class= "navitem" href="https://www.byui.edu/">BYU-Idaho</a></li>
+            <li><a class= "navitem" href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng&id=p22#p22" target="_blank">Scripture</a></li>
+        </ul>
+    
     </nav>
     <main>
         <div id="maincontainer">
@@ -39,6 +44,8 @@
                     <li class="listitem">3: <a href="lesson2/design-principles.html">Design Principles Document</a></li>
                     <li class="listitem">4: <a href="images/combinators.png">Combinators</a></li>
                     <li class="listitem">5: <a href="https://codepen.io/moo23001/pen/KKbRLYG">CSS Psuedo Elements</a></li>
+                    <li class="listitem">5: <a href="lesson05/bom.html">Book Of Mormon Books and Chapters</a></li>
+
                     
                 </ul>
             </section>
@@ -56,5 +63,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hammenu.js"></script>
 </body>
 </html>
