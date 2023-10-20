@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px){
+    header{
+        margin: auto;
+        max-width: 800px;
+        display: flex;
+        background-color: #064198;
+        padding: 20px 0px 20px 0px;
+        color: rgb(190, 9, 9);
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li{
+        flex: 1 1 100%;
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+}
