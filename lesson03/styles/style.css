@@ -1,0 +1,24 @@
+body{
+    width: 650px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
