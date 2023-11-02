@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/form.js" defer></script>
+    <title>Form</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <label for="username">Username: <input type="text" id="uname" name="username" required></label>
+            <label for="password">Password: <input type="password" id="password" name="password" pattern="[A-Za-z]{8}" placeholder="At least eight characters long. No numbers." required></label>
+            <label for="password2">Password: <input type="password" id="password2" name="password2" pattern="[A-Za-z]{8}" required></label>
+            <label for="email">Email: <input type="email" id="email"  name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+            <label for=""></label>
+            <label for="pagerating">Rate our page: <input type="text" id="rating" name="rating" list="l1" required> <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+            <button id="submit" type="submit">Submit</button>
+
+            
+        </form>
+        <datalist id="l1">
+            <option>10</option>
+            <option>9</option>
+            <option>8</option>
+            <option>7</option>
+            <option>6</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </datalist>       
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
