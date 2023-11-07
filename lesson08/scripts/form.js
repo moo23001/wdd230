@@ -3,7 +3,6 @@ const kp2 = document.querySelector("#password2");
 
 
 kp2.addEventListener("focusout", checkSame);
-kp1.addEventListener("focusout", checkSame);
 
 
 // This should be refactored.

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts/form.js" defer></script>
+    <meta name="author" content="Pedro Moo">
+    <meta name="description" content="Example of a form for WDD 230 class">
+    <link rel="stylesheet" href="styles/form.css">
     <title>Form</title>
 </head>
 <body>
@@ -15,17 +18,17 @@
     </nav>
     <main>
         <form method="get" action="record.html">
-            <label for="username">Username: <input type="text" id="uname" name="username" required></label>
-            <label for="password">Password: <input type="password" id="password" name="password" pattern="[A-Za-z]{8}" placeholder="At least eight characters long. No numbers." required></label>
-            <label for="password2">Password: <input type="password" id="password2" name="password2" pattern="[A-Za-z]{8}" required></label>
-            <label for="email">Email: <input type="email" id="email"  name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
-            <label for=""></label>
-            <label for="pagerating">Rate our page: <input type="text" id="rating" name="rating" list="l1" required> <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
-            <button id="submit" type="submit">Submit</button>
+            <label class="lbl">Username: <input type="text" id="uname" name="username" required></label>
+            <label class="lbl">Password: <input type="password" id="password" name="password" pattern="[A-Za-z]{8}" placeholder="At least eight characters long. No numbers." required></label>
+            <label class="lbl">Confirm Password: <input type="password" id="password2" name="password2" pattern="[A-Za-z]{8}" required></label>
+            <label class="lbl">Email: <input type="email" id="email"  name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+            <label class="lbl">Rate our page: <input type="text" id="rating" name="rating" list="l1"> <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+            <input type="submit" value="Sign Up" class="submit">
 
             
         </form>
         <datalist id="l1">
+            <option value="">Please Select</option>
             <option>10</option>
             <option>9</option>
             <option>8</option>
