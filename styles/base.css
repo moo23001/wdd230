@@ -74,14 +74,14 @@ nav {
     margin: 0 auto;
     font-family: Alata, Arial, Helvetica, sans-serif;
     color: white;
-    background-color: black;
+    background-color:#064198;
     max-width: 800px;
 
 }
 
 
 nav a{
-    display: block;
+    display: flex;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -90,7 +90,7 @@ nav a{
 }
 
 nav a:hover{
-    border: 1px solid #fff;
+    border: 2px solid #064198;
 }
 
 .navigation{
@@ -110,8 +110,8 @@ nav a:hover{
 	color: #fff;
 }
 .navigation li a:hover {
-	background-color: #bbb;
-	color: #333;
+	background-color: #ffff;
+	color: #064198;
 	font-weight: 700;
 }
 
