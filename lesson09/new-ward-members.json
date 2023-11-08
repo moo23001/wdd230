@@ -1,0 +1,28 @@
+{
+    "familyName" : "Super Hero Squad",
+    "movedIntoWard" : 2006,
+    "numberOfRecords" : 4,
+    "bishopMeeting" : true,
+    "familyMembers" : [
+        {
+        "name" : "Pedro",
+        "gender" : "Male",
+        "birthDate" :"January 1, 1981"
+        },
+        {
+            "name" : "Brenda",
+            "gender" : "Female",
+            "birthDate" :"January 2, 1981"
+        },
+        {
+            "name" : "Israel",
+            "gender" : "Male",
+            "birthDate" :"January 3, 1981"
+        },
+        {
+            "name" : "Ana",
+            "gender" : "Female",
+            "birthDate" :"January 4, 1981"
+        }
+    ]
+}
