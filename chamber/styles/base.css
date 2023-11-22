@@ -1,0 +1,49 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    align-content: center;
+}
+
+header{
+    margin: 0 auto;
+}
+nav{
+    background-color: rgb(56, 56, 56);
+    max-width: 80%;
+    color: #fff;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+#herobox {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+}
+#heroimg {
+    z-index: -1;
+}
+
+#heroimg img{
+    width: 500px;
+    height: auto;
+}
+
+footer{
+    margin: 0 auto;
+}
+
+footer ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
