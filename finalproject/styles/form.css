@@ -1,0 +1,39 @@
+main{
+    display: block;
+    margin: 10px auto;
+}
+h1,h2,h3{
+    font-family: var(--myfontfamily);
+}
+form label.lbl {
+    display: block;
+    padding-top: 1rem;
+    color: var(--myLabelColor);
+    font-family: var(--myfontfamily);
+    font-size: .75rem;
+}
+
+form label.lbl input{
+    display: block;
+    border-radius: var(--myBorderRadius);
+    font-family: var(--myfontfamily);
+}
+
+form input.submit{
+    border: none;
+    background-color: #394cfa;
+    color: white;
+    border-radius: var(--myBorderRadius);
+    padding: .75rem 1.5rem;
+}
+
+.confirmation{
+    text-align: center;
+}
+
+:root{
+    background-color: aliceblue;
+    --myLabelColor: #444;
+    --myfontfamily: Arial, Helvetica, sans-serif;
+    --myBorderRadius: .2rem;
+}
