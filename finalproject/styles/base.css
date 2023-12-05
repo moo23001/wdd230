@@ -11,13 +11,14 @@ body{
 
 header{
     display: block;
+
 }
 .logo{
     padding: 10px;
 }
 :root{
     font-family: 'Golos', Arial, Helvetica, sans-serif;
-    --myLabelColor: #444;
+    --myLabelColor: #AB410D;
     --myfontfamily: 'Alata','Golos',Helvetica;
     --myBorderRadius: .2rem;
 }
@@ -25,7 +26,6 @@ header{
 #heroimg {
     width: 100%;
     height: auto;
-    max-width: 100%;
    
 }
 
@@ -33,7 +33,7 @@ nav{
     margin: 0 auto;
     font-family: 'Alata', Arial, Helvetica, sans-serif;
     color: white;
-    background-color:#064198;
+    background-color:var(--myLabelColor);
     max-width: 800px;
 }
 
@@ -55,14 +55,6 @@ nav a:hover{
 
 .navigation li {
 	display: none;
-}
-
-.navigation li a {
-	display: block;
-	padding: 0.5rem;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
 }
 
 .navigation li a {
@@ -103,3 +95,23 @@ nav a:hover{
 .open li a {
 	display: block;
 }
+
+#value {
+    display: flex;
+    flex-direction: column;
+}
+
+#value img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    padding: 20px;
+    background-color: var(--myLabelColor);
+}
+
+footer img{
+    padding: 10px;
+}
+
