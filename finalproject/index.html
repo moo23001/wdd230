@@ -12,23 +12,29 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="/wdd230/finalproject/images/scooter.png" alt="Logo of a scooter" href="/wdd230/finalproject/index.html">
-        <nav>
-            <button id="menuButton"></button>
-            <ul class="navigation">
-                <li><a href="/wdd230/finalproject/rentals.html">Rentals</a></li>
-                <li><a href="/wdd230//finalproject/reservations.html">Reservations</a></li>
-                <li><a href="/wdd230//finalproject/contactus.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <picture>
+            <source media="(max-width: 37.5em)" srcset="images/">
+            <img class="logo" src="/wdd230/finalproject/images/scooter.png" alt="Logo of a scooter" href="/wdd230/finalproject/index.html">
+        </picture>
     </header>
+    <nav>
+        <button id="menuButton"></button>
+        <ul class="navigation">
+            <li><a href="/wdd230/finalproject/rentals.html">Rentals</a></li>
+            <li><a href="/wdd230//finalproject/reservations.html">Reservations</a></li>
+            <li><a href="/wdd230//finalproject/contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <div class="motto">
         <h2>MayanRide Rentals</h2>
         <p>Scoot, Explore, Repeat</p>
     </div>
     <main>
         <div id="herocontainer">
-            <img id="heroimg" src="/wdd230/finalproject/images/scooterhero1.webp" alt="Scooter at the peer" loading="lazy">
+            <picture>
+                <source media="(max-width: 37.5em)" srcset="images">
+                <img id="heroimg" src="/wdd230/finalproject/images/scooterhero1.webp" alt="Scooter at the peer" loading="lazy">
+            </picture>
             <div id="calltoaction"></div>
             <button class="actionbutton"></button>
         </div>

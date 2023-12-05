@@ -6,8 +6,33 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="/wdd230/finalproject/styles/base.css">
     <link rel="stylesheet" href="/wdd230/finalproject/styles/large.css">
+    <link rel="stylesheet" href="/wdd230/finalproject/styles/form.css">
 </head>
 <body>
-    
+    <header>
+        <img class="logo" src="/wdd230/finalproject/images/scooter.png" alt="Logo of a scooter" href="/wdd230/finalproject/index.html">
+        <nav>
+            <button id="menuButton"></button>
+            <ul class="navigation">
+                <li><a href="/wdd230/finalproject/rentals.html">Rentals</a></li>
+                <li><a href="/wdd230//finalproject/reservations.html">Reservations</a></li>
+                <li><a href="/wdd230//finalproject/contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <form method="get" action="confirmation.html">
+            <label class="lbl">Name: <input type="text" id="name" name="name" required></label>
+            <label class="lbl">Email: <input type="email" id="email"  name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+            <label for=""></label>
+            <input type="submit" value="Send" class="submit">
+    </body>
+    <footer>
+        <img src="/wdd230/finalproject/images/facebook.png" alt="Facebook Logo">
+        <img src="/wdd230//finalproject/images/instagram.png" alt="Instagram Logo">
+        <img src="/wdd230/finalproject/images/linkedin.png" alt="Linkedin">
+        <img src="/wdd230//finalproject/images/twitter.png" alt="Twitter">
+
+    </footer>
 </body>
 </html>
